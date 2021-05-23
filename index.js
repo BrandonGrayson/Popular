@@ -6,7 +6,7 @@ import Popular from "../src/components/Popular"
 export default function Index() {
   return (
     <Layout>
-      <Flex direction="column">
+      <Flex direction="row">
         <Popular />
       </Flex>
     </Layout>
